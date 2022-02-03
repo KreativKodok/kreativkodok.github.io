@@ -137,7 +137,6 @@ Fish.prototype.run = function(schoolOfFish) {
 }
 
 Fish.prototype.applyForce = function(force) {
-    // We could add mass here if we want A = F / M
     this.acceleration.add(force);
 }
 
