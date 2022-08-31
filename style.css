@@ -67,7 +67,7 @@ body {
 }
 .itemWrapper{
     margin: 10px;
-    background: linear-gradient(to bottom, #f8f8f8 0%, #ffffff 30%);
+    background: linear-gradient(to bottom, #fafafa 60%, #dddddd 100%);
     position: relative;
     
 }
