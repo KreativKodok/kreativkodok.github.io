@@ -74,7 +74,7 @@ function setup() {
 
   textFont("Roboto Mono");
   textAlign(CENTER, CENTER);
-  textSize(60);
+  textSize(60*(width/800));
 }
 
 let prevNow = 0;
