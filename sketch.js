@@ -52,7 +52,7 @@ function setup() {
     firstRun = false;
     */
     canvasSetup();
-    canvas.parent('#fishSketch');
+    canvas.parent('#titlesketch');
     //canvas.parent('#fishery');
     //parentDiv = select("#fishery");
     //canvas = resizeCanvas(parentDiv.width, parentDiv.height);
