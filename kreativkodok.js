@@ -1,16 +1,3 @@
-/*
-kreatívkodok
-kreatív kódok
-creative coding
-game design
-edutainment
-interactive
-installation
-
-
-
-*/
-
 let words = [
   "creative coding",
   "game design",
@@ -19,11 +6,13 @@ let words = [
   "interactive",
   "installation",
   "new media art",
+  "rapid prototyping",
+  "3D printing",
   "physical computing",
   "virtual reality",
   "augmented reality"
 ];
-let table = " .,_-+!?0123456789aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz";
+let table = " .,_-+!?0123456789aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyzAÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
 let source;
 let result;
 
@@ -47,7 +36,7 @@ let artistName = "kreatívkodok";
 let canvas;
 
 function setup() {
-  canvas = createCanvas(min(window.innerWidth, 800), window.innerHeight*.8);
+  canvas = createCanvas(min(window.innerWidth, 800), 200);
   //canvas.parent('#titlesketch');
 
   frameRate(60);
