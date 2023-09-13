@@ -94,10 +94,10 @@ body {
 }
 
 .contactBlock {
-    float: left;
+    float:left;
     text-align: center;
-    margin-bottom: 30px;
-    width: 33.333%;
+    margin-bottom: 10px;
+    width: 33%;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -135,11 +135,13 @@ span {
 }
 */
 
+/*
 @media screen and (max-width:500px) {
     .item, .contactBlock, .block{
         width:100%
     }
 }
+*/
 
 a:link {
     color: #333333;
